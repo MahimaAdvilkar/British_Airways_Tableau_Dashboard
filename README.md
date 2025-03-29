@@ -45,7 +45,8 @@ Welcome to the **British Airways Tableau Dashboard** repository! This project pr
 
 ## 📸 Screenshots:
 
-![Dashboard Screenshot](Images/Dashboard 1.png)
+![Dashboard Screenshot](Images/Dashboard%201.png)
+
 
 ## 📊 Data
 
