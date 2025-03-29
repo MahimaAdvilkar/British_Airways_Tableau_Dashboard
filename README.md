@@ -1,102 +1,87 @@
-British Airways Tableau Dashboard
-This repository contains a Tableau dashboard that visualizes customer reviews and performance metrics for British Airways. The dashboard presents an in-depth analysis of various airline service attributes such as cabin staff service, food and beverages, seat comfort, and overall value for money, among others. The visualizations aim to help stakeholders understand customer satisfaction trends and identify areas for operational improvements.
+# British Airways Tableau Dashboard
 
-Dashboard Overview
-Key Features:
-Interactive Filters: Users can filter data by various attributes such as travel type, seat type, and aircraft.
+Welcome to the **British Airways Tableau Dashboard** repository! This project presents an insightful, data-driven visualization of customer reviews and operational metrics for British Airways. With interactive filters and detailed analyses, this dashboard highlights key performance areas such as cabin staff service, food and beverages, seat comfort, and overall value for money. It’s designed to help stakeholders identify trends, understand customer satisfaction, and spot opportunities for operational improvements.
 
-Metrics Visualization: Displays average ratings for key metrics like cabin staff service, seat comfort, food, and overall value for money.
+## 🚀 Dashboard Overview
 
-Trend Analysis: Visualize trends over time, such as seat comfort ratings by month.
+### **Key Features**:
+- **Interactive Filters**: Explore various attributes including traveler type, seat type, and aircraft model to gain tailored insights.
+- **Comprehensive Metrics Visualization**: Track average ratings across essential service categories like cabin staff service, seat comfort, food quality, and value for money.
+- **Trend Analysis**: Visualize service performance trends over time, particularly seat comfort ratings, helping to identify improvement patterns.
+- **Geospatial Insights**: Explore a map showcasing average seat comfort ratings by country, offering a global perspective of customer satisfaction.
+- **Aircraft Performance**: Evaluate customer ratings across various aircraft models to assess how seating and services differ between aircraft.
 
-Geospatial Insights: Average seat comfort ratings displayed on a map, providing a geographic view of customer satisfaction.
+## 🔍 Key Insights:
 
-Aircraft Performance: Analyze customer reviews across different aircraft types and models.
+### **Average Ratings**:
+- **Overall Rating**: 4.2/5 ⭐ – Generally positive customer feedback for British Airways.
+- **Cabin Staff Service**: 2.8/5 ⭐ – Room for improvement in customer service interactions.
+- **Seat Comfort**: 2.4/5 ⭐ – Passengers find seating comfort lacking, indicating potential for improvement.
+- **Entertainment**: 1.1/5 ⭐ – Entertainment is the weakest aspect, which may require attention to meet customer expectations.
+- **Food & Beverages**: 1.9/5 ⭐ – A clear area of concern, as food and beverage ratings are low.
+- **Ground Service**: 2.6/5 ⭐ – Ground service is better than food and entertainment but still below optimal levels.
+- **Value for Money**: 2.2/5 ⭐ – Passengers feel the value for money does not meet their expectations.
 
-Key Insights:
-Average Ratings:
+### **Seat Comfort by Month**:
+- Seat comfort ratings fluctuate over time, showing spikes and dips. A noticeable improvement was seen in 2023, suggesting potential enhancements in seating comfort during that period.
 
-Overall Rating: 4.2 (out of 5), indicating a generally positive customer experience with British Airways.
+### **Seat Comfort by Country**:
+- **Top-rated countries**: The US and Canada have higher ratings, indicating better seat comfort experiences.
+- **Lower-rated regions**: European and Asian countries show lower scores, hinting at potential areas for improvement in these regions.
 
-Cabin Staff Service: 2.8, suggesting room for improvement in customer service quality, with a focus on staff interactions.
+### **Seat Comfort by Aircraft**:
+- **Boeing 747**: 2.0/5 ⭐ – The most comfortable among major aircraft but still below a 3-star rating, which indicates room for improvement.
+- **Boeing 787-9**: 1.5/5 ⭐ – One of the least favored aircraft in terms of seat comfort.
+- **Boeing 777**: 1.7/5 ⭐ – Similar to the 787-9, this aircraft type also has lower comfort ratings.
+- **A380**: 2.2/5 ⭐ – Slightly better than other aircraft models but still needing improvement.
 
-Seat Comfort: 2.4, indicating that passengers find seat comfort to be suboptimal, which could be a key area for improvement.
+### **Additional Insights**:
+- **Aircraft Comparison**: Reviews reveal significant variations in seat comfort across different aircraft models.
+- **Traveler Type Analysis**: Business travelers generally rate cabin staff service and seat comfort higher than leisure travelers. Solo leisure travelers tend to give lower ratings for food and entertainment compared to other traveler types.
 
-Entertainment: 1.1, highlighting that entertainment options are considered the weakest aspect of the service.
+### **Trends**:
+- **Seat Comfort** has shown stagnation in improvement, highlighting the need for consistent upgrades.
+- **Cabin Staff Service** saw fluctuations, with noticeable dips in 2020 likely linked to pandemic-related disruptions.
 
-Food and Beverages: 1.9, showing that passengers rate food and beverages poorly, signaling a potential area for improvement.
+## 📸 Screenshots:
 
-Ground Service: 2.6, indicating that ground services could benefit from attention, although it is better than the food and entertainment ratings.
+![Dashboard Screenshot](Dashboard%201.png)
 
-Value for Money: 2.2, indicating that passengers feel the value for money does not meet expectations.
+## 📊 Data
 
-Seat Comfort by Month:
+This project uses the following datasets:
+- **BA Reviews Data**: Contains customer reviews and ratings for various service metrics such as seat comfort, food, cabin service, and more.
+- **Countries Data**: Provides geographic data for visualizing review ratings by country.
 
-The seat comfort ratings show fluctuating trends over the years with noticeable spikes and dips, suggesting varying customer satisfaction levels over time. A noticeable increase in ratings was observed around 2023, indicating potential improvements made in seating or perceived comfort.
+## 🗂️ File Structure:
 
-Seat Comfort by Country:
-
-The map shows average seat comfort ratings across different countries. Countries such as the US and Canada have higher ratings, indicating relatively better customer satisfaction with seat comfort, while regions like Asia and Europe show lower scores.
-
-Seat Comfort by Aircraft:
-
-Different aircraft models have varying seat comfort ratings:
-
-Boeing 747: 2.0, rated the highest among major aircraft, but still under 3, indicating average satisfaction.
-
-Boeing 787-9: 1.5, showing that this aircraft model is less favored by passengers when it comes to seat comfort.
-
-Boeing 777: 1.7, again a lower score, highlighting potential issues with the seating arrangement on this aircraft type.
-
-A380: 2.2, providing a more comfortable experience, but still in need of improvement.
-
-Data Insights:
-Aircraft Comparison: Review customer ratings for different aircraft models.
-
-Customer Type: Compare reviews based on traveller type (business, solo, family, etc.).
-
-Business Travelers generally rate seat comfort and cabin staff service higher than leisure travelers.
-
-Solo Leisure Travelers tend to rate the food and entertainment more negatively than other traveler types.
-
-Trend Analysis:
-
-Seat Comfort has remained relatively stagnant over the years, indicating a lack of significant improvements in this area.
-
-Cabin Staff Service saw some fluctuations with noticeable drops in 2020, likely due to pandemic-related factors affecting customer service standards.
-
-Screenshots:
-
-Data
-The dataset used for this project includes:
-
-BA Reviews Data: Contains customer reviews and ratings for various service metrics like seat comfort, food, and cabin service.
-
-Countries Data: Provides geographic data for visualizing review data by country.
-
-File Structure:
-kotlin
-Copy
+```
 british-airways-tableau-dashboard/
-├── README.md
-├── British_Airways_Dashboard.twbx (Tableau Workbook)
-├── ba_reviews.csv (Customer reviews data)
-├── Countries.csv (Geographic data)
-└── Dashboard 1.png (Dashboard Screenshot)
-Requirements
-Tableau Desktop (or Tableau Public) to open the .twbx file.
+├── README.md                           # Project documentation
+├── British_Airways_Dashboard.twbx      # Tableau Workbook (interactive dashboard)
+├── ba_reviews.csv                      # Customer reviews data
+├── Countries.csv                       # Geographic data for mapping reviews by country
+└── Dashboard 1.png                     # Screenshot of the dashboard
+```
 
-An internet connection to view the Tableau Public dashboard online.
+## ⚙️ Requirements:
 
-How to Use
-Clone or download this repository.
+- **Tableau Desktop** or **Tableau Public** to open and interact with the `.twbx` file.
+- An internet connection to view the dashboard online via Tableau Public.
 
-Open the Tableau workbook British_Airways_Dashboard.twbx with Tableau Desktop or Tableau Public.
+## 📖 How to Use:
 
-Interact with the dashboard by applying filters and exploring different views.
+1. Clone or download this repository to your local machine.
+2. Open the `British_Airways_Dashboard.twbx` file in Tableau Desktop or Tableau Public.
+3. Apply filters to customize the dashboard view based on your preferences (e.g., traveler type, seat comfort, aircraft).
+4. Explore the various visualizations and gain insights from the interactive metrics.
 
-View the Dashboard
-Check out the interactive Tableau dashboard online: British Airways Tableau Dashboard
+## 🌐 View the Dashboard:
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+You can explore the interactive Tableau dashboard online: [British Airways Tableau Dashboard](https://public.tableau.com/app/profile/mahima.advilkar/viz/BritishAirwaysTableauDashboard_17397575507310/Dashboard1)
+
+## 📝 License:
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
